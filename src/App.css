@@ -1,0 +1,63 @@
+.main-content {
+  display: grid;
+  grid-template-columns:  15% 15% 15% 15%;
+  grid-template-rows: max-content;
+  justify-content: center;
+}
+
+.items {
+  border: 1px solid gray;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 20px;
+}
+
+.app {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.stages {
+  margin-top: 10%;
+}
+
+.order-details {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.main-section {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: -webkit-center;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 18px;
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
